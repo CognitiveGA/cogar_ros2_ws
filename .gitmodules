@@ -1,0 +1,57 @@
+[submodule "src/launch_pal"]
+	path = src/launch_pal
+	url = https://github.com/pal-robotics/launch_pal.git
+[submodule "src/mars_rover"]
+	path = src/mars_rover
+	url = https://github.com/CognitiveGA/mars_rover.git
+[submodule "src/pal_gazebo_worlds"]
+	path = src/pal_gazebo_worlds
+	url = https://github.com/CognitiveGA/pal_gazebo_worlds.git
+[submodule "src/pal_gripper"]
+	path = src/pal_gripper
+	url = https://github.com/pal-robotics/pal_gripper.git
+[submodule "src/pal_hey5"]
+	path = src/pal_hey5
+	url = https://github.com/pal-robotics/pal_hey5.git
+[submodule "src/pal_navigation_cfg_public"]
+	path = src/pal_navigation_cfg_public
+	url = https://github.com/pal-robotics/pal_navigation_cfg_public.git
+[submodule "src/pal_robotiq_gripper"]
+	path = src/pal_robotiq_gripper
+	url = https://github.com/pal-robotics/pal_robotiq_gripper.git
+[submodule "src/pal_urdf_utils"]
+	path = src/pal_urdf_utils
+	url = https://github.com/pal-robotics/pal_urdf_utils.git
+[submodule "src/play_motion2"]
+	path = src/play_motion2
+	url = https://github.com/pal-robotics/play_motion2.git
+[submodule "src/pmb2_navigation"]
+	path = src/pmb2_navigation
+	url = https://github.com/pal-robotics/pmb2_navigation.git
+[submodule "src/pmb2_robot"]
+	path = src/pmb2_robot
+	url = https://github.com/pal-robotics/pmb2_robot.git
+[submodule "src/ros2_callbacks_examples"]
+	path = src/ros2_callbacks_examples
+	url = https://github.com/CognitiveGA/ros2_callbacks_examples.git
+[submodule "src/tiago_moveit_config"]
+	path = src/tiago_moveit_config
+	url = https://github.com/pal-robotics/tiago_moveit_config.git
+[submodule "src/tiago_navigation"]
+	path = src/tiago_navigation
+	url = https://github.com/pal-robotics/tiago_navigation.git
+[submodule "src/tiago_robot"]
+	path = src/tiago_robot
+	url = https://github.com/pal-robotics/tiago_robot.git
+[submodule "src/tiago_simulation"]
+	path = src/tiago_simulation
+	url = https://github.com/CognitiveGA/tiago_simulation.git
+[submodule "src/urdf_test"]
+	path = src/urdf_test
+	url = https://github.com/pal-robotics/urdf_test.git
+[submodule "src/cogar_simulation"]
+	path = src/cogar_simulation
+	url = https://github.com/CognitiveGA/cogar_simulation.git
+[submodule "src/rescue_robot"]
+	path = src/rescue_robot
+	url = https://github.com/CognitiveGA/rescue_robot.git
