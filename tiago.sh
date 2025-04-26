@@ -1,9 +1,10 @@
 #!/bin/bash
 
-set -e
+# Print the current working directory
+pwd
 
-# Define base workspace path
-L_PATH="/home/shady/Documents/unige_robotics_msc/0x02_second_year_2nd_semster/cogar/cogar_ros2_ws"
+# Set the workspace path automatically
+L_PATH="$(pwd)"
 
 # Reset PYTHONPATH to include only necessary paths
 export PYTHONPATH="${L_PATH}/install/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages"

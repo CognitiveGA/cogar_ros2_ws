@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
-W_PATH="/home/shady/Documents/unige_robotics_msc/0x02_second_year_2nd_semster/cogar/cogar_ros2_ws"
+# Print the current working directory
+pwd
+
+# Set the workspace path automatically
+W_PATH="$(pwd)"
 
 # Reset PYTHONPATH to include only necessary paths
 export PYTHONPATH="${W_PATH}/install/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages"
@@ -29,4 +33,3 @@ export GAZEBO_MODEL_DATABASE_URI=""
 # Launch
 ros2 launch cogar_simulation spawn_tiago_in_space.launch.py is_public_sim:=True world_name:=space_terrain_env
 # ros2 launch cogar_simulation spawn_tiago_in_space.launch.py is_public_sim:=True world_name:=hospital_flat
-
