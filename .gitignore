@@ -1,3 +1,7 @@
 /build/
 /install/
 /log/
+/src/add_submodules.sh
+/src/check_git_changes.sh
+/src/create_pkgs.sh
+/src/check_remote.sh
