@@ -55,3 +55,4 @@
 [submodule "src/rescue_robot"]
 	path = src/rescue_robot
 	url = https://github.com/CognitiveGA/rescue_robot.git
+	branch = main
